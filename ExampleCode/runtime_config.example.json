@@ -1,0 +1,18 @@
+{
+  "notebook": "01_full_market_simulator_initial_training_optiver.ipynb",
+  "project_root": "/content/drive/MyDrive/bigalpha_market_project",
+  "output_dir": "/content/drive/MyDrive/bigalpha_market_project/runs/initial_training_001",
+  "kernel_name": "python3",
+  "timeout_seconds": 21600,
+  "offline": true,
+  "resume": false,
+  "install_packages": false,
+  "batch_size": 3800,
+  "num_workers": 12,
+  "max_epochs": 30,
+  "max_train_steps": 889,
+  "max_validation_batches": 166,
+  "stock_limit": 20,
+  "dataset_fraction": 0.65,
+  "use_torch_compile": false
+}
