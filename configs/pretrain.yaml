@@ -1,0 +1,24 @@
+# Reference notebook architecture; batch size is deliberately conservative.
+model:
+  d_model: 128
+  latent_dim: 128
+  nhead: 8
+  layers: 4
+  ff_dim: 256
+  dropout: 0.1
+  num_agents: 24
+  agent_hidden: 64
+  action_dim: 4
+training:
+  stage: joint
+  warmup_len: 96
+  prediction_len: 32
+  batch_size: 16
+  epochs: 30
+  lr: 0.0006
+  weight_decay: 0.0001
+  grad_clip: 1.0
+  lambda_diversity: 0.03
+  lambda_balance: 0.005
+  amp: false
+  seed: 42

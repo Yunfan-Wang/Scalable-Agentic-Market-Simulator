@@ -1,0 +1,11 @@
+# Requires --initialize-from a checkpoint with the same model architecture.
+model: {}
+training:
+  stage: participants
+  warmup_len: 96
+  prediction_len: 32
+  batch_size: 16
+  epochs: 5
+  lr: 0.0001
+  amp: false
+  seed: 42

@@ -1,0 +1,58 @@
+[
+  {
+    "market_feature_dim": 19,
+    "median_ms": 52.82401800000258,
+    "mean_ms": 52.48635449999881,
+    "p95_ms": 65.32998099999077,
+    "parameters": 1633636,
+    "device": "cpu"
+  },
+  {
+    "market_feature_dim": 32,
+    "median_ms": 59.82523950000029,
+    "mean_ms": 56.62208299999776,
+    "p95_ms": 82.65639100000044,
+    "parameters": 1635300,
+    "device": "cpu"
+  },
+  {
+    "market_feature_dim": 64,
+    "median_ms": 52.118959999994274,
+    "mean_ms": 51.818247499998904,
+    "p95_ms": 64.56497599999977,
+    "parameters": 1639396,
+    "device": "cpu"
+  },
+  {
+    "market_feature_dim": 128,
+    "median_ms": 63.740214999995715,
+    "mean_ms": 56.21674230000053,
+    "p95_ms": 70.19484500000317,
+    "parameters": 1647588,
+    "device": "cpu"
+  },
+  {
+    "market_feature_dim": 256,
+    "median_ms": 66.23718499999853,
+    "mean_ms": 62.00432619999958,
+    "p95_ms": 89.02024999999014,
+    "parameters": 1663972,
+    "device": "cpu"
+  },
+  {
+    "market_feature_dim": 512,
+    "median_ms": 69.40852599999658,
+    "mean_ms": 65.87306029999809,
+    "p95_ms": 89.4727080000024,
+    "parameters": 1696740,
+    "device": "cpu"
+  },
+  {
+    "market_feature_dim": 1024,
+    "median_ms": 50.440628999993464,
+    "mean_ms": 51.941172199998675,
+    "p95_ms": 70.49505000000522,
+    "parameters": 1762276,
+    "device": "cpu"
+  }
+]

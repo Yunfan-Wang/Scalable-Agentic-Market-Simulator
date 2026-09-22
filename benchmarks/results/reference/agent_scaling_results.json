@@ -1,0 +1,66 @@
+[
+  {
+    "num_agents": 1,
+    "median_ms": 31.915444500000945,
+    "mean_ms": 39.47292699999991,
+    "p95_ms": 54.190785999992386,
+    "parameters": 648661,
+    "device": "cpu"
+  },
+  {
+    "num_agents": 4,
+    "median_ms": 33.968524500004094,
+    "mean_ms": 41.14961029999904,
+    "p95_ms": 59.75938199999575,
+    "parameters": 777136,
+    "device": "cpu"
+  },
+  {
+    "num_agents": 8,
+    "median_ms": 45.532723999997415,
+    "mean_ms": 50.22021539999599,
+    "p95_ms": 77.5704139999931,
+    "parameters": 948436,
+    "device": "cpu"
+  },
+  {
+    "num_agents": 16,
+    "median_ms": 41.56018100000125,
+    "mean_ms": 47.05908389999678,
+    "p95_ms": 66.70721799999058,
+    "parameters": 1291036,
+    "device": "cpu"
+  },
+  {
+    "num_agents": 24,
+    "median_ms": 59.67189599999756,
+    "mean_ms": 56.9997043000015,
+    "p95_ms": 78.250170000004,
+    "parameters": 1633636,
+    "device": "cpu"
+  },
+  {
+    "num_agents": 48,
+    "median_ms": 77.61216050000286,
+    "mean_ms": 71.5098571000027,
+    "p95_ms": 83.12400399999831,
+    "parameters": 2661436,
+    "device": "cpu"
+  },
+  {
+    "num_agents": 96,
+    "median_ms": 97.84245500000566,
+    "mean_ms": 97.97254939999647,
+    "p95_ms": 105.93105599998864,
+    "parameters": 4717036,
+    "device": "cpu"
+  },
+  {
+    "num_agents": 192,
+    "median_ms": 153.03240649999594,
+    "mean_ms": 154.6608857999999,
+    "p95_ms": 186.48273700000573,
+    "parameters": 8828236,
+    "device": "cpu"
+  }
+]

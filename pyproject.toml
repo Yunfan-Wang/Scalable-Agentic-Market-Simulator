@@ -1,0 +1,36 @@
+[build-system]
+requires = ["setuptools>=77", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "sams-research"
+version = "0.1.0"
+description = "Shared market interpretation with independently parameterized recurrent agents"
+readme = "README.md"
+requires-python = ">=3.11"
+authors = [{name = "Yunfan Wang"}]
+dependencies = ["torch>=2.6,<3", "numpy>=1.26,<3", "pandas>=2.2,<4", "pyarrow>=16", "PyYAML>=6"]
+
+[project.optional-dependencies]
+dev = ["pytest>=8", "ruff>=0.11", "build>=1.2"]
+plots = ["matplotlib>=3.8"]
+notebook = ["nbformat>=5", "nbclient>=0.10", "ipykernel>=6", "jupyter-client>=8", "tqdm", "scikit-learn", "matplotlib", "psutil", "kaggle"]
+
+[project.urls]
+Repository = "https://github.com/Yunfan-Wang/Scalable-MultiAgent-Market-Simulator"
+Demo = "https://pittsai.com/sams"
+
+[tool.setuptools.packages.find]
+where = ["src"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+markers = ["distributed: launches two local Gloo processes"]
+
+[tool.ruff]
+line-length = 100
+target-version = "py311"
+extend-exclude = ["ExampleCode", "benchmarks/legacy"]
+
+[tool.ruff.lint]
+select = ["E4", "E7", "E9", "F"]

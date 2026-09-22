@@ -1,0 +1,74 @@
+{
+  "files": [
+    {
+      "sha256": "a3b17ba0e032434b17868abbf1056419bd12028688918951dd66158af397a53a",
+      "file": "benchmarks/legacy/benchmark_agent_scaling.py"
+    },
+    {
+      "sha256": "accaa88aec7e9c75b8afa29317d690134fe54400758c9a952ab823607c900f12",
+      "file": "benchmarks/legacy/benchmark_architecture_scaling.py"
+    },
+    {
+      "sha256": "a610aee77c669b82a9fb46a86ac3aad7e94c20c58c731f87a32c1e22bbdc0af0",
+      "file": "benchmarks/legacy/benchmark_input_scaling.py"
+    },
+    {
+      "sha256": "e116aab9ea462ffef0662eeba73646bc54ab94e0a12fc6732591acc214a500d2",
+      "file": "benchmarks/legacy/benchmark_latent_scaling.py"
+    },
+    {
+      "sha256": "7397d675814e66a4e957e4c8a11703136293917e7dd8f1d9fa69a70411a2070e",
+      "file": "benchmarks/legacy/benchmark_text_input_scaling.py"
+    },
+    {
+      "sha256": "d53e68cad550f22e8d565db7e9c1f6636c3373d43a58b63f6c3b0becea41ab0b",
+      "file": "benchmarks/results/reference/agent_scaling_results.csv"
+    },
+    {
+      "sha256": "a41f08c2049a52f0c996a0f47006eb9c9b1c6da7c8d70ca57f0651225d68440b",
+      "file": "benchmarks/results/reference/agent_scaling_results.json"
+    },
+    {
+      "sha256": "6974e1650b53713809168cab804746e17e0b68583b73ce9430a9a04ed73c04e0",
+      "file": "benchmarks/results/reference/agent_scaling_results.png"
+    },
+    {
+      "sha256": "5c454e7ee263cee1722ce98429ed6d563951fba000bfc04817bcc88ae74f5d5f",
+      "file": "benchmarks/results/reference/architecture_scaling_comparison.csv"
+    },
+    {
+      "sha256": "91778f1a283a5cb57416b1c649add3df769592a098f9c7cf09b1cf738d09f40e",
+      "file": "benchmarks/results/reference/architecture_scaling_comparison.json"
+    },
+    {
+      "sha256": "cd2fd9f5d486f53355d66b8d32dcd8cc5f5aa296074d7abdd5acfba5c3668ebc",
+      "file": "benchmarks/results/reference/architecture_scaling_comparison.png"
+    },
+    {
+      "sha256": "f914e1a859a8be886dcb07200f6d354c094d1b3536ce06c2f0356464237d6b76",
+      "file": "benchmarks/results/reference/input_scaling_results.csv"
+    },
+    {
+      "sha256": "240b1814efa221dd5c15338c28a80b43375c23a69f51de3d0216b82d40a013cc",
+      "file": "benchmarks/results/reference/input_scaling_results.json"
+    },
+    {
+      "sha256": "14105a8c566c80da82e16ab1c1d30c5ffffc413ee373e3cb59a6f202e07c21d0",
+      "file": "benchmarks/results/reference/input_scaling_results.png"
+    },
+    {
+      "sha256": "3cf376a1c24d6a595c62af09fb45e8ed6c12fc5a1c6bcd3ec1ce7803f79e8c32",
+      "file": "benchmarks/results/reference/latent_scaling_results.csv"
+    },
+    {
+      "sha256": "3613d2590c657c7fd0bb14759dfd27cbc48ea414bd18a18a9ee0fc32a80e19a2",
+      "file": "benchmarks/results/reference/latent_scaling_results.json"
+    },
+    {
+      "sha256": "b47e01e85ba1cfdd33acdd306f4331bafa5a7eaddd2ed9f6e363009f1f873289",
+      "file": "benchmarks/results/reference/latent_scaling_results.png"
+    }
+  ],
+  "source": "BigQuant/ExampleCode/ablationStudy",
+  "kind": "historical simplified architecture benchmarks; hardware details incomplete"
+}

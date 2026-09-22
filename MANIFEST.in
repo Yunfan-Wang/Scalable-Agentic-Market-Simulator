@@ -1,0 +1,5 @@
+include README.md CONTRIBUTING.md
+recursive-include configs *.yaml
+recursive-include scripts *.py
+recursive-include tests *.py
+recursive-include docs *.md *.png

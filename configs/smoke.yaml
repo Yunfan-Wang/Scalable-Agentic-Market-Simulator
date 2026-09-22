@@ -1,0 +1,15 @@
+model:
+  d_model: 32
+  latent_dim: 32
+  nhead: 4
+  layers: 1
+  ff_dim: 64
+  dropout: 0.0
+  num_agents: 4
+  agent_hidden: 16
+training:
+  warmup_len: 4
+  prediction_len: 4
+  batch_size: 16
+  epochs: 2
+  seed: 42

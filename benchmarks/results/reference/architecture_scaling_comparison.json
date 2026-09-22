@@ -1,0 +1,44 @@
+[
+  {
+    "num_agents": 1,
+    "proposed_median_ms": 31.336038000020494,
+    "naive_median_ms": 39.29404850001106,
+    "speedup_vs_naive": 1.2539571371462264,
+    "device": "cpu"
+  },
+  {
+    "num_agents": 4,
+    "proposed_median_ms": 45.25190200000395,
+    "naive_median_ms": 137.12391450000894,
+    "speedup_vs_naive": 3.030235381045353,
+    "device": "cpu"
+  },
+  {
+    "num_agents": 8,
+    "proposed_median_ms": 35.329572999998504,
+    "naive_median_ms": 286.8388500000094,
+    "speedup_vs_naive": 8.118944715239596,
+    "device": "cpu"
+  },
+  {
+    "num_agents": 16,
+    "proposed_median_ms": 53.75872199999776,
+    "naive_median_ms": 580.5184470000029,
+    "speedup_vs_naive": 10.798590915164,
+    "device": "cpu"
+  },
+  {
+    "num_agents": 24,
+    "proposed_median_ms": 66.6043334999955,
+    "naive_median_ms": 813.9966174999955,
+    "speedup_vs_naive": 12.221376218711812,
+    "device": "cpu"
+  },
+  {
+    "num_agents": 48,
+    "proposed_median_ms": 81.08389400000249,
+    "naive_median_ms": 1830.0923514999995,
+    "speedup_vs_naive": 22.57035597599621,
+    "device": "cpu"
+  }
+]
