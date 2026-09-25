@@ -17,7 +17,7 @@ The central question: **can heterogeneous latent participants provide a scalable
 
 This repository contains the research notebook and report, an installable PyTorch implementation, offline data preparation, initial training, encoder-frozen adaptation, held-out evaluation, and distributed correctness tests.
 
-> **Research status.** The packaged system trains next-step distributions on observed histories. Validated autonomous market rollouts, economically identified agent types, and production trading performance remain open research goals. The online demo illustrates the project; it is not a benchmark result.
+> **Research status.** The packaged system trains next-step distributions on observed histories. Validated autonomous market rollouts, economically identified agent types, and production trading performance remain open research goals. The online demo illustrates a very basic version of this project.
 
 ## The architecture at a glance
 
